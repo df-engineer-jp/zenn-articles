@@ -1,5 +1,5 @@
 ---
-title: "PythonマルチスレッドでGoogle Drive APIを叩いたらSIGSEGVでデーモンが即死した話——threading.local()とmacOS濁点（NFD）の罠"
+title: "PythonマルチスレッドでGoogle Drive APIを叩いたらSIGSEGV即死した話——NFD濁点の罠"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "googledrive", "multithreading", "macos", "linux"]

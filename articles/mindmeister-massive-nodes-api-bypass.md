@@ -1,9 +1,9 @@
 ---
-title: "【740MBの壁】MindMeisterで3,000ノードの巨大マップがUIフリーズ＆APIもHTTP 500墜落……差分JSON解析と.mind独自再構築で「1,602ノード完全救出」した話"
+title: "【740MBの壁】MindMeister巨大マップのUIフリーズ＆API 500を差分JSON再構築で救出した話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]
-published: true
+published: false
 canonical_url: "https://house-buying-ai.com/blog/mindmeister-massive-nodes-api-bypass/"
 ---
 

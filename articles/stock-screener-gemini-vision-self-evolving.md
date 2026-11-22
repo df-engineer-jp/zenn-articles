@@ -1,5 +1,5 @@
 ---
-title: "テクニカル指標だけの株スクリーニングは「上ヒゲの罠」で死ぬ。Gemini Visionのチャート目視診断と「自己進化ルール生成エンジン」を組んだ話"
+title: "テクニカル指標だけの株スクリーニングは「上ヒゲ」で死ぬ。Gemini Vision目視診断の導入話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "gemini", "trading", "llm", "ai"]

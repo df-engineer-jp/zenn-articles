@@ -1,5 +1,5 @@
 ---
-title: "ヘッドレスブラウザ多重起動でVPSのメモリ2GBが蒸発したので、Cognito SRP認証をPythonで直叩きして「ブラウザレス0.2秒化」した話"
+title: "Playwright多重起動でメモリ2GB蒸発したのでCognito SRP認証をPython直叩きし0.2秒化した話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "aws", "cognito", "automation", "ai"]

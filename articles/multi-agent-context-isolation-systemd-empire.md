@@ -1,5 +1,5 @@
 ---
-title: "1人の万能AIに何でもやらせるとバカになる——Linux systemdとコンテキスト分離で作る「3大AIエージェント（NOVA・VEGA・PEN）自律分業帝国」の設計図"
+title: "1人の万能AIに何でもやらせるとバカになる——Linux systemd×コンテキスト分離の自律分業設計"
 emoji: "⚡"
 type: "tech"
 topics: ["linux", "systemd", "ai", "architecture", "python"]

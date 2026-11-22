@@ -1,5 +1,5 @@
 ---
-title: "moomoo証券のOpenDデーモンがバックグラウンド起動で入力を全無視して詰んだので、Pythonの疑似端末（pty）とTIOCSWINSZ偽装で突破した話"
+title: "moomoo証券OpenDがバックグラウンド起動で入力無視して詰んだのでPython疑似端末で突破した話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "linux", "trading", "automation", "ai"]

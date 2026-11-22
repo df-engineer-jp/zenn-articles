@@ -1,5 +1,5 @@
 ---
-title: "【実録】クラウドワークスの「55円マニュアル作成」に応募したら、2段階の「Amazon名義貸し＆口座転用詐欺」だった。営業AIがAPI全文解析で水際ブロックした全記録"
+title: "【実録】CW「55円マニュアル作成」で遭遇したAmazon名義貸し詐欺をAIがAPI解析で水際ブロックした話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]

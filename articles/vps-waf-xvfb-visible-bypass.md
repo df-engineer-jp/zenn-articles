@@ -1,5 +1,5 @@
 ---
-title: "VPS上のPlaywrightが「AWS WAF ✕ 海外IP遮断 ✕ メール2FA」で完全沈黙。常設仮想ディスプレイ（Xvfb）と自己修復ループで突破した話"
+title: "VPSのPlaywrightがAWS WAFと海外IP遮断で沈黙。常設Xvfb×自己修復ループで突破した話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]

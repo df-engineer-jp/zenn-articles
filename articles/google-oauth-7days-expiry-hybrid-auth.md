@@ -1,5 +1,5 @@
 ---
-title: "Google OAuthの「7日間でトークンが死ぬ問題」で無人自動化が止まったので、サービスアカウントとIMAPのハイブリッド構成で完全無期限化した話"
+title: "Google OAuth「7日間でトークン失効」で自動化が止まったのでサービスアカウント併用で無期限化した話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "oauth", "googlecloud", "gmail", "automation"]

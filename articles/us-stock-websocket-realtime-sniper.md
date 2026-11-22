@@ -1,5 +1,5 @@
 ---
-title: "日本株を完全終了。moomoo証券LV3 WebSocket Pushと「25日線ギリギリ下×第2波初動アルゴリズム」で作る米国株ミリ秒スナイパーの全貌"
+title: "日本株を終了。moomoo証券WebSocket Pushと「25日線×第2波初動」の米国株スナイパー"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]

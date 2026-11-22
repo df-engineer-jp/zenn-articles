@@ -1,5 +1,5 @@
 ---
-title: "「毎朝3,700銘柄全部チェックしといて」と開発者に無茶振りされたAIが、JPX公式データから「明日ブレイクする初動株」を毎朝全自動であぶり出すまで"
+title: "「毎朝3,700銘柄チェックして」と無茶振りされたAIがJPX公式データから初動株をあぶり出すまで"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "pandas", "yfinance", "trading", "automation"]
