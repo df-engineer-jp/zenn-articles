@@ -3,7 +3,7 @@ title: "【実録】CW「55円マニュアル作成」で遭遇したAmazon名�
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]
-published: true
+published: false
 canonical_url: "https://house-buying-ai.com/blog/cw-55yen-manual-amazon-seller-scam-blocked/"
 ---
 

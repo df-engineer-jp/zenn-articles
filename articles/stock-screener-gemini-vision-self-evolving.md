@@ -3,7 +3,7 @@ title: "テクニカル指標だけの株スクリーニングは「上ヒゲ」
 emoji: "⚡"
 type: "tech"
 topics: ["python", "gemini", "trading", "llm", "ai"]
-published: true
+published: false
 canonical_url: "https://house-buying-ai.com/blog/stock-screener-gemini-vision-self-evolving/"
 ---
 

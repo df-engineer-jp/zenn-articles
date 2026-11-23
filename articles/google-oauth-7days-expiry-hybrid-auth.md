@@ -3,7 +3,7 @@ title: "Google OAuth「7日間でトークン失効」で自動化が止まっ�
 emoji: "⚡"
 type: "tech"
 topics: ["python", "oauth", "googlecloud", "gmail", "automation"]
-published: true
+published: false
 canonical_url: "https://house-buying-ai.com/blog/google-oauth-7days-expiry-hybrid-auth/"
 ---
 

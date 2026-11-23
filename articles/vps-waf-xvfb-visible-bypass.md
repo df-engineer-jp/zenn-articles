@@ -3,7 +3,7 @@ title: "VPSのPlaywrightがAWS WAFと海外IP遮断で沈黙。常設Xvfb×自�
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]
-published: true
+published: false
 canonical_url: "https://house-buying-ai.com/blog/vps-waf-xvfb-visible-bypass/"
 ---
 

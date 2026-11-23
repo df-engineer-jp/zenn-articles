@@ -3,7 +3,7 @@ title: "【収益メーター0円突破】初売上「121円」の衝撃。現�
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]
-published: true
+published: false
 canonical_url: "https://house-buying-ai.com/blog/first-revenue-121yen-nova-incident-chronicle/"
 ---
 

@@ -3,7 +3,7 @@ title: "PythonマルチスレッドでGoogle Drive APIを叩いたらSIGSEGV即�
 emoji: "⚡"
 type: "tech"
 topics: ["python", "googledrive", "multithreading", "macos", "linux"]
-published: true
+published: false
 canonical_url: "https://house-buying-ai.com/blog/google-drive-multithread-sigsegv-nfd-trap/"
 ---
 
