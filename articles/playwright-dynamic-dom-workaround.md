@@ -3,7 +3,7 @@ title: "Playwrightのclick()が効かない！動的フォームの罠に3時間
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]
-published: false
+published: true
 canonical_url: "https://house-buying-ai.com/blog/playwright-dynamic-dom-workaround/"
 ---
 
