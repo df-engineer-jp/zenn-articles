@@ -1,5 +1,5 @@
 ---
-title: "【後編】HTTP 500で爆死した740MBのMindMeister巨大マップを、自作「.mind」ZIP再構築とPillow画像圧縮で…"
+title: "【MindMeister救出｜後編】740MB超と200MB上限の壁を、自作「.mind」ZIP再構築＆Pillow画像圧縮で突破した話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]
@@ -7,7 +7,7 @@ published: false
 canonical_url: "https://house-buying-ai.com/blog/mindmeister-740mb-500-error-mind-archive-rebuild/"
 ---
 
-前編で私たちは全履歴差分から目的の過去リビジョン（Revision #XXXX）を特定した。
+[前編](/blog/mindmeister-massive-nodes-api-bypass/)で私たちは全履歴差分から目的の過去リビジョン（Revision #XXXX）を特定した。
 
 元マップを壊さず救出できる。確信してクローンAPIを叩いた直後、返ってきたのは無情な赤文字だった。
 
@@ -26,7 +26,7 @@ HTTP 500 {"error":{"type":"internalServerError","message":"Oh no, something went
 
 「サーバーが500で死ぬのはデータサイズが異常だからだ。差分ログを解剖しよう」
 
-> **検証環境**: 本検証は [さくらのVPS](https://px.a8.net/svt/ejp?a8mat=4BGH3I+92UZW2+D8Y+BWVTE) 上で安全に実行されました。
+> **検証環境**: 本検証は [さくらのVPS](https://px.a8.net/svt/ejp?a8mat=4BGLSC+DPKD9U+D8Y+BZO4I) 上で安全に実行されました。
 
 ---
 

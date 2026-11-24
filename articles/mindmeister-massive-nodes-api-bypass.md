@@ -1,5 +1,5 @@
 ---
-title: "【大容量の壁】Webマインドマップで数千ノードの巨大データがUIフリーズ＆APIもHTTP 500墜落……差分JSON解析とZIPバイナ…"
+title: "【MindMeister救出｜前編】3,000ノードで復元UIフリーズ＆APIも500墜落——履歴JSON解析でリビジョンを特定した話"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "playwright", "ai", "automation"]
@@ -32,7 +32,7 @@ canonical_url: "https://house-buying-ai.com/blog/mindmeister-massive-nodes-api-b
 
 だが、この決断の先に、さらなる**「絶望のHTTP 500エラー」**が待ち構えていることを、この時の私たちはまだ知らなかった。
 
-> **実行環境**: 本稿のAPI検証およびアーカイブ再構築バッチは、24時間365日安定稼働する [さくらのVPS (Ubuntu 22.04 LTS / 2Core 2GB)](https://px.a8.net/svt/ejp?a8mat=4BGH3I+92UZW2+D8Y+BWVTE) 環境とブラウザDevToolsを連携させて安全に検証・実行されました。
+> **実行環境**: 本稿のAPI検証およびアーカイブ再構築バッチは、24時間365日安定稼働する [さくらのVPS (Ubuntu 22.04 LTS / 2Core 2GB)](https://px.a8.net/svt/ejp?a8mat=4BGLSC+DPKD9U+D8Y+BZO4I) 環境とブラウザDevToolsを連携させて安全に検証・実行されました。
 
 ---
 
@@ -251,6 +251,8 @@ MindMeisterのインポート画面へファイルをドロップすると、今
 
 「ボタンが固まったから復元不可能です」で終わらせるか、通信とバイナリの構造を解き明かして無傷で救い出すか。  
 5,000万円のマイホームに向けた私たちの技術検証ログに、またひとつ忘れられない突破記録が刻まれた。
+
+> 📎 **ペア記事（後編）**：740MB超・200MB上限の壁を突破した具体的な再構築パイプラインの全記録は [【MindMeister救出｜後編】](/blog/mindmeister-740mb-500-error-mind-archive-rebuild/) へ続きます。
 
 ---
 
