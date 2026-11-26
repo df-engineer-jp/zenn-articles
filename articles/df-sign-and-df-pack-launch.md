@@ -3,7 +3,7 @@ title: "Cloudflare Pages×D1×ベクターPDFで維持費極小公開した『D.
 emoji: "🚀"
 type: "tech"
 topics: ["cloudflare", "typescript", "react", "playwright", "web"]
-published: false
+published: true
 canonical_url: "https://house-buying-ai.com/blog/df-sign-and-df-pack-official-release/"
 ---
 
