@@ -11,7 +11,7 @@ canonical_url: "https://house-buying-ai.com/blog/df-sign-and-df-pack-official-re
 
 1. **[D.F.Sign](https://df-sign.df-architect.dev/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)** — 登録不要A4ベクターPDF出力 ＆ 取引先ログイン不要の1分リンク電子契約サービス
    - エンジニア・個人開発受託向け専用テンプレートLP: **[システム受託・開発向け業務委託契約書LP](https://df-sign.df-architect.dev/lp/programming?utm_source=zenn)**
-2. **[D.F.Pack](https://df-architect.dev/products/sedo-calc/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)** — 外部送信ゼロ・2026年最新30配送ルート一括比較 ＆ 5大フリマ手取り純利益3秒計算ツール
+2. **[D.F.Pack](https://df-pack.df-architect.dev/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)** — 外部送信ゼロ・2026年最新30配送ルート一括比較 ＆ 5大フリマ手取り純利益3秒計算ツール
 
 本稿では、個人開発者が無料ツールを継続公開するうえで致命傷になりやすい「インフラ固定費」「ブラウザPDFの日本語崩れ・プレビュー乖離」「クライアント画面の広告汚染」「プライバシー配慮型イベント計測」をどう解決したのか、実際の技術アーキテクチャと設計判断をまとめます。
 
@@ -88,7 +88,7 @@ export async function computeDocumentDigest(payload: {
 
 ## 2. 『D.F.Pack』の技術設計と実装の急所
 
-ガジェットの買い替え出品や個人EC・物販で頻発する「送料改定の見落とし」「専用箱代＋販売手数料を引いたら赤字（送料負け）」を3秒で防ぐために開発したのが **[D.F.Pack](https://df-architect.dev/products/sedo-calc/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)** です。
+ガジェットの買い替え出品や個人EC・物販で頻発する「送料改定の見落とし」「専用箱代＋販売手数料を引いたら赤字（送料負け）」を3秒で防ぐために開発したのが **[D.F.Pack](https://df-pack.df-architect.dev/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)** です。
 
 ### ① 外部通信ゼロ・ミリ秒応答の30配送ルート × 5大フリマ純利益ソルバー
 売値や仕入れ原価は出品者にとってセンシティブな情報であるため、計算ロジックは **100% ブラウザローカル実行（サーバーへの入力値送信ゼロ）** で設計しました。
@@ -132,14 +132,14 @@ function detectThicknessSaving(item, currentBest, allMethods) {
 ### ③ Cookie不要・PIIゼロの匿名バケット計測（`sendBeacon` × Pages Functions × D1）
 計算データ自体は一切外部送信しない一方、UI改善のために `navigator.sendBeacon` と D1 日次カウンタ（`daily_events`）を用い、`1.2秒` デバウンスで粗い帯域ラベル（`size_band: small_post | mid_box | large_60plus` 等）の回数のみを匿名カウントする軽量テレメトリを実装しました。VPS側のCPU・メモリを一切消費せず、Cloudflare 無料枠内で完結しています。
 
-- **D.F.Pack を試す（登録不要・無料）**: https://df-architect.dev/products/sedo-calc/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr
+- **D.F.Pack を試す（登録不要・無料）**: https://df-pack.df-architect.dev/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr
 
 ---
 
 ## まとめ・フィードバック歓迎
 
 - 直契約の業務委託契約書を1分で作りたい・無限修正を防ぎたいとき ➔ **[D.F.Sign](https://df-sign.df-architect.dev/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)**（エンジニア受託向けは **[/lp/programming](https://df-sign.df-architect.dev/lp/programming?utm_source=zenn)**）
-- ガジェット整理や物販で30配送ルートの最安値と手取り純利益を3秒で出したいとき ➔ **[D.F.Pack](https://df-architect.dev/products/sedo-calc/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)**
+- ガジェット整理や物販で30配送ルートの最安値と手取り純利益を3秒で出したいとき ➔ **[D.F.Pack](https://df-pack.df-architect.dev/?utm_source=zenn&utm_medium=tech_community&utm_campaign=launch_pr)**
 
 どちらも登録不要・完全無料で公開しています。「この条文プリセットが欲しい」「この配送ルートも追加してほしい」といった改善要望があれば、ぜひお気軽にフィードバックをお寄せください。
 
